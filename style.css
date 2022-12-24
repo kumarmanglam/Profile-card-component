@@ -49,15 +49,15 @@ body{
 }
 
 .dp {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     background-image: url(./images/image-victor.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
     position: absolute;
-    bottom: 25px;
+    bottom: 18px;
 }
 
 .cover-image-bottom {

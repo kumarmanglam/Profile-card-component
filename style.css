@@ -14,12 +14,15 @@
 }
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--Dark-cyan);
     display: grid;
     place-items: center;
     font-family: 'Kumbh Sans', sans-serif;
-    color: var(--Very-dark-desaturated-blue)
+    color: var(--Very-dark-desaturated-blue);
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh;
 }
 
 .card {
